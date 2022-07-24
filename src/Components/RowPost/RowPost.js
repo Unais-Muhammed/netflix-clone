@@ -8,8 +8,6 @@ function RowPost() {
   useEffect(() => {
     axios.get(`discover/movie?api_key=${API_KEY}&with_genres=28`).then((response)=>{
       console.log(response.data);
-    }).catch(error=>{
-      alert('error')
     })
   
   }, [])
