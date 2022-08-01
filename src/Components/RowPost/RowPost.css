@@ -9,16 +9,31 @@
     overflow-x: scroll;
     overflow-y: hidden;
     scroll-behavior: inherit;
+    
 
 }
 
 .poster{
     max-height: 250px;
     margin-right: 10px;
+    cursor: pointer;
 
 }
 
 .posters::-webkit-scrollbar{
     display: none;
+
 }
 
+.smallPosters{
+    max-height: 150px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.poster:hover{
+    transform: scale(1.09);
+}
+.smallPosters:hover{
+    transform: scale(1.11);
+}
